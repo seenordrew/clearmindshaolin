@@ -222,7 +222,7 @@ footer li {
 }
 
   nav li {
-  margin: 0vw;
+  margin: 1vw 0vw 1vw 0vw;
   padding: 0px 8px 5px 10px;
   list-style: none;
   text-decoration: none;
