@@ -73,10 +73,6 @@ a, h1 {
 .main-content {
   margin: 3vw 15vw;
   font-family: 'Muli', sans-serif;
-  /*height: 30vw;
-  display: flex;
-  justify-content: center; 
-  align-items: center;*/
 }
 
 .main-content h1, h2, h3, h4 {
@@ -85,7 +81,7 @@ a, h1 {
 
 .main-content h1 {
   font-family: 'Raleway', sans-serif;
-  font-size: 3vw;
+  font-size: 5vw;
 }
 
 .two-clm-grid {
@@ -199,4 +195,99 @@ footer li {
 	list-style: none;
 	padding: 0vw 1vw;
 	color: rgb(32, 60, 149);
+}
+
+
+
+/*code for phones*/
+
+
+@media screen and (max-width: 550px) {
+
+  nav {
+    height: 35vh;
+  }
+
+  nav ul {
+  padding: 0px 0px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  //align-items: center;
+}
+
+  nav li {
+  margin: 0vw;
+  padding: 0px 8px 5px 10px;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-size: calc(3vw);
+  transition: 0.25s ease-in-out;
+}
+
+.main-content {
+  margin: 3vw 2vw;
+}
+
+.two-clm-grid {
+  display: grid;
+  grid-template-columns: 95%;
+  grid-gap: 0px;
+  margin-top: 20px;
+}
+
+.two-clm-grid img {
+  width: 100%;
+  box-shadow: 3px 3px 3px grey;
+}
+
+.caption-img p {
+  text-align: center;
+  font-style: italic;
+  margin-top: 5px;
+}
+
+.teacher {
+  display: flex;
+  flex-direction: column;
+  //justify-content: space-around;
+  padding-bottom: 6vw;
+}
+
+.teacher p {
+  margin-top: 0;
+}
+
+.teacher-bio {
+  padding-right: 0vw;
+}
+
+.teacher img {
+  width: 50%;
+  height: 50%;
+  align-self: center;
+}
+
+.coming-soon {
+  height: 70vh;
+}
+
+.main-content ol {
+  padding: 0px 30px;
+  //margin: 0px 0px;
+}
+
+.contact {
+  height: 52vh;
+}
+
+footer {
+  height: 25vw;
+  background-color: #e8ce92;
+  font-family: 'Muli', sans-serif;
+  font-size: 3vw;
+}
+
 }
