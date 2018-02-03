@@ -204,11 +204,12 @@ footer li {
 @media screen and (max-width: 550px) {
 
   nav {
-    height: 60vw;
+    height: 65vw;
   }
 
   nav h1 {
   	font-size: 7vw;
+  	margin-top: 10px;
   }
 
   nav ul {
