@@ -131,8 +131,8 @@ a, h1 {
 }
 
 .teacher {
-  display: flex;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: 75% 25%;
   padding-bottom: 6vw;
 }
 
@@ -145,8 +145,7 @@ a, h1 {
 }
 
 .teacher img {
-  width: 30%;
-  height: 30%;
+  width: 100%;
   border-radius: 3px;
   box-shadow: 3px 3px 3px grey;
 }
@@ -250,8 +249,7 @@ footer li {
 }
 
 .teacher {
-  display: flex;
-  flex-direction: column;
+  grid-template-columns: 100%;
   //justify-content: space-around;
   padding-bottom: 6vw;
 }
@@ -266,8 +264,7 @@ footer li {
 
 .teacher img {
   width: 50%;
-  height: 50%;
-  align-self: center;
+  justify-self: center;
 }
 
 .coming-soon {
@@ -288,6 +285,10 @@ footer {
   background-color: #e8ce92;
   font-family: 'Muli', sans-serif;
   font-size: 3vw;
+}
+
+footer ul {
+	padding-left: 0px;
 }
 
 }
