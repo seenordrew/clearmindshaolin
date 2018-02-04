@@ -278,7 +278,27 @@ footer li {
 
 .main-content ol {
   padding: 0px 30px;
-  //margin: 0px 0px;
+}
+
+.video-box {
+  margin: auto;
+  width: 90%;
+}
+
+.video-outline {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  //margin-top: 2vw;
+  height: 0;
+}
+
+.video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .contact {
@@ -286,14 +306,23 @@ footer li {
 }
 
 footer {
-  height: 25vw;
+
+  flex-direction: column;
+ justify-content: center;
+  height: 50vw;
   background-color: #e8ce92;
   font-family: 'Muli', sans-serif;
-  font-size: 3vw;
+  font-size: 5vw;
 }
 
 footer ul {
+	display: flex;
+	flex-direction: column;
 	padding-left: 0px;
+}
+
+footer ul li:nth-of-type(2) {
+	display: none;
 }
 
 }
