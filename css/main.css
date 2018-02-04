@@ -276,23 +276,37 @@ footer li {
   margin-top: 5px;
 }
 
-.teacher {
-  grid-template-columns: 100%;
-  //justify-content: space-around;
-  padding-bottom: 6vw;
+#teacher1 {
+  margin-top: 40px;
 }
 
-.teacher p {
-  margin-top: 0;
+.teacher {
+  grid-template-columns: 100%;
+  grid-template-areas: "top" "bottom";
+  padding-bottom: 6vw;
 }
 
 .teacher-bio {
   padding-right: 0vw;
+  grid-area: bottom;
 }
 
-.teacher img {
-  width: 50%;
-  justify-self: center;
+.teacher-img {
+  grid-area: top;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-style: italic;
+}
+
+.teacher-img img {
+  width: 70%;
+  height: 70%;
+  margin-bottom: 10px;
+}
+
+.teacher-img p {
+  text-decoration: underline;
 }
 
 .coming-soon {
