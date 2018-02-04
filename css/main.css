@@ -234,7 +234,7 @@ footer li {
 	footer {
 		height: 30vw;
 		margin-top: 150px;
-		font-size: 3vw;
+		font-size: 2vw;
 	}
 }
 
@@ -385,9 +385,4 @@ footer ul {
 	flex-direction: column;
 	padding-left: 0px;
 }
-
-footer ul li:nth-of-type(2) {
-	display: none;
-}
-
 }
