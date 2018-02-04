@@ -208,8 +208,15 @@ footer li {
 		margin-top: 50px;
 	}
 
+	.coming-soon {
+		height: 50vh;
+		font-size: 3vw;
+	}
+
 	footer {
+		height: 30vw;
 		margin-top: 150px;
+		font-size: 3vw;
 	}
 }
 
