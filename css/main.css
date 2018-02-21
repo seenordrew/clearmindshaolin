@@ -336,6 +336,7 @@ footer li {
   //justify-content: space-around;
   overflow: hidden;
   background-color: rgb(232, 206, 146);
+  z-index: 5;
 }
 
 .topnav a {
