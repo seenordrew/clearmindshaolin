@@ -287,8 +287,7 @@ footer li {
 }
 
 .sm-icons img {
-  width: 3%;
-  height: 3%;
+  width: 40px;
   padding: 0vw 1vw;
 }
 
@@ -535,8 +534,6 @@ footer ul {
 }
 
 .sm-icons img {
-  width: 8%;
-  height: 8%;
   padding: 0vw 1.5vw;
 }
 
