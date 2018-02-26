@@ -3,7 +3,7 @@ body, html, footer, ul {
 }
 
 body {
-   background-color: rgba(255, 254, 224, 0.5);
+   background-color: #fffef2;
 }
 
 nav {
@@ -246,6 +246,65 @@ hr {
   font-size: 1.5vw;
   font-weight: bolder;
   font-style: italic;
+}
+
+.blog-article-list {
+  margin: 3vw 18vw;
+  font-family: 'Muli', sans-serif;
+}
+
+.blog-article-list h1 {
+  font-size: 3vw;
+  font-family: "Raleway", sans-serif;
+}
+
+.blog-article-list h1:hover {
+  color: rgb(32, 60, 149);
+}
+
+.blog-article-list h3 {
+  font-size: 1.5vw;
+  text-align: left;
+  font-weight: lighter;
+}
+
+.blog-article-list hr {
+  margin: 3vw 0vw;
+}
+
+.blog-content {
+  margin: 8vw 20vw;
+  font-family: 'Muli', sans-serif;
+  //font-family: 'Mukta Malar', sans-serif;
+}
+
+.blog-content h2, h3, h4 {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+}
+
+.blog-content h1 {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+.blog-content h2 {
+  margin: 2vw 0vw;
+}
+
+.blog-title {
+  margin-bottom: 2vw;
+}
+
+.blog-date, .author {
+  text-align: right;
+  font-style: italic;
+  margin: 0;
+}
+
+.blog-post {
+  margin: 3vw 0vw 6vw 0vw;
 }
 
 .contact {
@@ -499,6 +558,30 @@ box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+.blog-article-list {
+  margin: 8vw 2vw 2vw 2vw;
+}
+
+.blog-article-list h1 {
+  font-size: 6vw;
+}
+
+.blog-article-list h3 {
+  font-size: 3.5vw;
+}
+
+.blog-article-list hr {
+  margin: 5vw 0vw;
+}
+
+.blog-content {
+  margin: 8vw 2vw;
+}
+
+.blog-content hr {
+  margin: 7vw 0vw;
 }
 
 .contact {
