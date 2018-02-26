@@ -288,9 +288,12 @@ hr {
   font-family: 'Muli', sans-serif;
 }
 
-.blog-content h1, h2, h3, h4 {
-  text-align: center;
+.blog-content h1, h2, h3{
   font-family: "Montserrat", sans-serif;
+}
+
+.blog-content h1, h2 {
+  text-align: center;
 }
 
 .blog-content h1 {
@@ -300,6 +303,7 @@ hr {
 .blog-content h3 {
   margin: 3vw 0vw 0vw 0vw;
   font-weight: 500;
+  text-align: left;
 }
 
 .blog-title {
