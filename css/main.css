@@ -251,6 +251,11 @@ hr {
     width: 100%;
 }
 
+.small-hr {
+  width: 10%;
+  margin: 2vw auto;
+}
+
 .faq-question {
   font-size: 1.5vw;
   font-weight: bolder;
@@ -323,7 +328,7 @@ hr {
 .blog-end-img {
   width: 5%;
   display: block;
-  margin: 4vw auto 0vw auto;
+  margin: 4vw auto 4vw auto;
  // margin-left: auto;
 }
 
