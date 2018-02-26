@@ -325,15 +325,40 @@ hr {
   margin: 3vw 0vw 6vw 0vw;
 }
 
+.blog-quote {
+  margin: 2vw 0vw;
+  padding: 10px 5px 10px 20px;
+  border-left: 2px solid rgb(32, 60, 149);
+  font-style: italic;
+  background-color: rgba(255, 254, 252, 0.7);
+  -webkit-box-shadow: 4px 0px 15px -6px rgba(0,0,0,0.75);
+  -moz-box-shadow: 4px 0px 15px -6px rgba(0,0,0,0.75);
+  box-shadow: 4px 0px 20px -10px rgba(0,0,0,0.75);
+}
+
+.single-img {
+  display: flex;
+  justify-content: center;
+  }
+
+  .blog-caption-img {
+    background-color: rgba(255, 254, 252, 0.7);
+  }
+
+.blog-caption-img img {
+  //margin: 0vw auto;
+  //width: 50%;
+  }
+
+  .blog-caption-img p {
+    //text-align: center;
+    font-style: italic;
+  }
+
 .blog-end-img {
   width: 5%;
   display: block;
   margin: 4vw auto 4vw auto;
- // margin-left: auto;
-}
-
-.blog-end-sign {
-  text-align: center;
 }
 
 .contact {
