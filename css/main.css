@@ -208,9 +208,9 @@ box-shadow: 0px 0px 20px -4px rgba(0,0,0,0.75);
 
 .two-clm-grid img {
   width: 100%;
-  -webkit-box-shadow: 0px 0px 20px -4px rgba(0,0,0,0.75);
--moz-box-shadow: 0px 0px 20px -4px rgba(0,0,0,0.75);
-box-shadow: 0px 0px 20px -4px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0px 0px 17px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 17px -4px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 17px -4px rgba(0,0,0,0.75);
 }
 
 .caption-img p {
@@ -264,9 +264,9 @@ box-shadow: 0px 0px 20px -4px rgba(0,0,0,0.75);
 }
 
 .teacher-img img {
-	 -webkit-box-shadow: 0px 0px 20px -4px rgba(0,0,0,0.75);
--moz-box-shadow: 0px 0px 20px -4px rgba(0,0,0,0.75);
-box-shadow: 0px 0px 20px -4px rgba(0,0,0,0.75);
+	 -webkit-box-shadow: 0px 0px 17px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 17px -4px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 17px -4px rgba(0,0,0,0.75);
 }
 
 .teacher-img p {
