@@ -1,9 +1,19 @@
+body, html {
+  height: 100%;
+}
+
 body, html, footer, ul {
   margin: 0;
 }
 
 body {
    background-color: #fffef2;
+}
+
+.landing-nav {
+  height: 18vw;
+  position: relative;
+  z-index: 5;
 }
 
 nav {
@@ -121,6 +131,37 @@ a, h1 {
   color: black;
 }
 
+.landing-page {
+  margin-top: 0px;
+  height: 90vh;
+  //width: 100%;
+  background-image: url("../images/abdominal-breathing.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.quote-large {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.6);
+  //color: rgb(223, 155, 0);
+  color: #e8ac30;
+  text-shadow: 1px 1px 2px black;
+  font-family: "Raleway", sans-serif;
+}
+
+.quote-large q {
+  text-align: center;
+  font-size: 6vw;
+  font-style: italic;
+}
+
 .link {
   color: rgb(32, 60, 149);
   text-decoration: underline;
@@ -147,6 +188,15 @@ a, h1 {
 
 .main-content h2 {
   font-size: 3vw;
+}
+
+.main-content img {
+  width: 80%;
+  display: block;
+  margin: auto;
+  -webkit-box-shadow: 0px 0px 20px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 20px -4px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 20px -4px rgba(0,0,0,0.75);
 }
 
 .two-clm-grid {
@@ -329,6 +379,7 @@ hr {
   margin: 2vw 0vw;
   padding: 10px 5px 10px 20px;
   border-left: 2px solid rgb(32, 60, 149);
+  font-size: 1.5vw;
   font-style: italic;
   background-color: rgba(255, 254, 252, 0.7);
   -webkit-box-shadow: 4px 0px 15px -6px rgba(0,0,0,0.75);
@@ -408,6 +459,23 @@ footer li {
 
 @media screen and (max-width: 1024px) {
 
+  .landing-nav {
+  height: 20vw;
+}
+
+.landing-page {
+  height: 88vh;
+}
+
+ .quote-large q {
+  font-size: 6vw;
+  font-style: italic;
+}
+
+.quote-large p {
+  font-size: 4.5vw;
+}
+
 	.two-clm-grid {
 		margin-top: 50px;
 	}
@@ -437,6 +505,11 @@ footer li {
   }
 
 @media screen and (max-width: 600px) {
+
+    .landing-nav {
+  height: 32vw;
+}
+
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
