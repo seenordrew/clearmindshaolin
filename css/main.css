@@ -149,16 +149,13 @@ a, h1 {
   flex-direction: column;
   align-items: center;
   width: 100%;
+  padding-bottom: 10px;
   background-color: rgba(255, 255, 255, 0.6);
-  //color: rgb(223, 155, 0);
   color: #e8ac30;
   text-shadow: 1px 1px 2px black;
   font-family: "Raleway", sans-serif;
-}
-
-.quote-large q {
   text-align: center;
-  font-size: 6vw;
+  font-size: 5vw;
   font-style: italic;
 }
 
@@ -464,13 +461,13 @@ footer li {
   height: 88vh;
 }
 
- .quote-large q {
+/* .quote-large q {
   font-size: 6vw;
   font-style: italic;
-}
+}*/
 
-.quote-large p {
-  font-size: 4.5vw;
+.quote-large {
+  font-size: 7vw;
 }
 
 	.two-clm-grid {
@@ -588,6 +585,10 @@ footer li {
   font-family: 'Raleway', sans-serif;
   font-size: calc(3vw);
   transition: 0.25s ease-in-out;
+}
+
+.quote-large {
+  font-size: 10vw;
 }
 
 .main-content {
@@ -738,7 +739,7 @@ box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
 }
 
 footer {
-
+padding-bottom: 10px;
  justify-content: center;
   height: 50vw;
   background-color: #e8ce92;
